@@ -31,22 +31,32 @@ header {
     font-family: ralewaybold, sans-serif, Arial;
 }
 .jumbotron {
-    background-image: url("graphics/jumbotron.jpg");
-    overflow-x: hidden;
-    overflow-y: visible;
-    height: 499px;
-    background-position: center;
+    background: linear-gradient(rgb(250,250,250), rgb(240,240,240), rgb(205,205,205));
+    height: 500px;
+    margin-bottom: 28px;
 }
 .max_width {
     margin: 0 auto;
-    width: 1056px;
+    max-width: 1056px;
+}
+.right_jumbo, .left_jumbo {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    display: inline-block;
 }
 .right_jumbo {
-    width: 435px;
-    height: 499px;
-    padding: 0 116px 0 575px;
-    text-align: center;
+    float: right;
 }
+/*Stylowanie slidera*/
+.hide {
+    display: none;
+}
+.slide {
+    margin: 0 auto;
+    padding-top: 100px;
+}
+/*koniec stylowania slidera*/
 .right_jumbo * {
     vertical-align: middle;
 }
@@ -70,7 +80,7 @@ header {
     width: 250px;
     height: 50px;
     border-radius: 7px;
-    background-color: rgb(39, 199, 171);
+    background-color: rgb(36, 186, 160);
     margin: 0 auto;
     margin-top: 30px;
 }
@@ -86,12 +96,134 @@ header {
     height: 220px;
     width: 330px;
     display: inline-block;
-   border: 1px red solid;
+    position: relative;
 }
+.pictures {
+    height: 350px;
+}
+
 #clair {
     background-image: url("graphics/box1_img.jpg");
-
 }
 #margarita {
-    margin: 0 20px 0 20px;
+    margin: 0 28px 0 28px;
+    background-image: url("graphics/box2_img.jpg");
+}
+#inputs {
+    font-family: ralewayregular, sans-serif, Arial;
+    line-height: 110%;
+}
+#inputs span, .white_bg span {
+    font-family: ralewaysemibold, sans-serif, Arial;
+}
+.green_underline {
+    width: 138px;
+    height: 7px;
+    background-color: rgb(39,199,177);
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+.white_bg {
+    width: 330px;
+    height: 62px;
+    background-color: rgba(255,255,255,0.5);
+    position: absolute;
+    bottom: 15px;
+    padding-left: 20px;
+}
+.gray_bg {
+    width: 100%;
+    background-color: rgb(241,241,241);
+    height: 730px;
+}
+.price_list_header h4 {
+    font-family: ralewaymedium, sans-serif, Arial;
+    font-size: 16px;
+}
+.green_underline_2 {
+    width: 300px;
+    height: 7px;
+    background-color: rgb(39,199,177);
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+.price_list {
+    height: 500px;
+    width: 326px;
+    display: inline-block;
+    border: 2px solid rgb(214,214,214);
+    background-color: white;
+}
+.tariff_2 {
+    margin: 0 28px 0 28px;
+}
+.circle_outside {
+    border-radius: 50%;
+    width: 53px;
+    height: 53px;
+    border: 2px, rgb(214,214,214);
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: -40px;
+    position: relative;
+}
+.circle_inside {
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    background-color: rgb(214,214,214);
+    margin: 0 auto;
+    margin: 13px 0 0 13px;
+    position: absolute;
+}
+.price_list h5 {
+    font-family: ralewaymedium, sans-serif, Arial;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(39,199,177);
+    line-height: 80px;
+}
+.price_circle {
+    border-radius: 50%;
+    width: 126px;
+    height: 126px;
+    border: 2px solid rgb(241,241,241);
+    color: rgb(194,194,194);
+    margin: 0 auto;
+    font-family: ralewaybold, sans-serif, Arial;
+    text-align: center;
+}
+.price_circle span {
+    font-size: 36px;
+}
+.price_circle span span {
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: super;
+}
+.features {
+    width: 326px;
+    height: 46px;
+    font-family: ralewayregular, sans-serif, Arial;
+    text-align: center;
+    background-color: rgb(228,228,228);
+}
+.features:nth-child(even) {
+    background-color: rgb(241,241,241);
+}
+.features_blank {
+    background-color: white !important;
+}
+.button_buy {
+    height: 34px;
+    width: 120px;
+    border-radius: 7px;
+    background-color: rgb(39,199,177);
+    color: white;
+    font-family: ralewaymedium, sans-serif, Arial;
+    margin: 0 auto;
+    line-height: 34px;
+    text-align: center;
+    bottom: -20px;
+    position: relative;
 }

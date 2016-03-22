@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="resetCSS.css" type="text/css">
     <link rel="stylesheet" href="fonts/fonty.css" type="text/css">
     <link rel="stylesheet" href="main.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
 </head>
 <body>
     <header>
@@ -25,6 +27,11 @@
 
     <div class="jumbotron">
         <div class="max_width">
+            <div class="left_jumbo slider">
+                <img class="slide" src="graphics/red_chair.png">
+                <img class="slide hide" src="graphics/black_chair.png">
+                <img class="slide hide" src="graphics/orange_chair.png">
+            </div>
             <div class="right_jumbo">
                 <h1><span>Sit</span> <span>on</span> <span>our</span> <span>chair</span></h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ullamcorper. Suspendise a pellentesque dui, non felis. Maecenes malesuada elit lectus felis, malesuada ultrices. Curabitur et ligula. Ut molestie a, ultricies porta urna.</p>
@@ -34,22 +41,131 @@
             </div>
         </div>
     </div>
-
-    <div class="max_width">
+                      <!-- Zdjęcia 1/3 grida krzeseł -->
+    <div class="max_width pictures">
         <div class="top_graphics" id="clair">
-
+            <div class="white_bg">
+                <br>
+                <span>chair CLAIRE</span>
+                <div class="green_underline"></div>
+            </div>
         </div>
         <div class="top_graphics" id="margarita">
-
+          <div class="white_bg">
+                <br>
+                <span>chair MARGARITA</span>
+                <div class="green_underline"></div>
+          </div>
         </div>
         <div class="top_graphics" id="inputs">
+            <span>Finds all inputs</span>
+              <div class="green_underline"></div>
+              <p>Finds all inputs that not checked and highlights the siblings span. Notice there is&nbsp;no change when clicking the checkboxes since no click events have been linked</p>
+              <br>
+              <p>Notice there is no change when clicking the checkboxes since no click events have been</p>
+              <br>
+        </div>
+    </div>
+                  <!-- Cennik -->
+    <div class="gray_bg">
+        <div class="max_width">
+            <br><br>
+            <div class="price_list_header">
+                <h4>CENNIK</h4>
+            </div>
+            <div class="green_underline_2"></div>
+            <br><br><br><br>
+              <div class="price_list_wrapper">
+                <div class="price_list tariff_1">
+                    <div class="circle_outside">
+                        <div class="circle_inside"></div>
+                    </div>
+                    <h5>BASIC PLAN</h5>
+                    <div class="price_circle"><br><br>
+                      <span>85<span>99</span></span><br>
+                      <p>PLN/MSC</p>
+                    </div><br>
+                    <div class="features">
+                        <br>
+                        <span>Zakup towaru + dowoz<span>
+                    </div>
+                    <div class="features">
+                        <br>
+                        <span>Serwis<span>
+                    </div>
+                    <div class="features features_blank">
+                        <br><span></span>
+                    </div>
+                    <div class="features features_blank">
+                        <br><span></span>
+                    </div>
+                    <div class="button_buy">
+                        <p>DOŁĄCZ</p>
+                    </div>
+                </div>
+                <div class="price_list tariff_2">
+                    <div class="circle_outside">
+                        <div class="circle_inside"></div>
+                    </div>
+                    <h5>STANDARD PLAN</h5>
+                    <div class="price_circle"><br><br>
+                      <span>95<span>99</span></span><br>
+                      <p>PLN/MSC</p>
+                    </div><br>
+                    <div class="features">
+                        <br>
+                        <span>Zakup towaru + dowoz<span>
+                    </div>
+                    <div class="features">
+                        <br>
+                        <span>Serwis<span>
+                    </div>
+                    <div class="features">
+                        <br>
+                        <span>Gwarancja 5 lat<span>
+                    </div>
+                    <div class="features features_blank">
+                        <br><span></span>
+                    </div>
+                    <div class="button_buy">
+                        <p>DOŁĄCZ</p>
+                    </div>
+                </div>
+                <div class="price_list tariff_3">
+                    <div class="circle_outside">
+                        <div class="circle_inside"></div>
+                    </div>
+                    <h5>ADVANCE PLAN</h5>
+                    <div class="price_circle"><br><br>
+                      <span>211<span>00</span></span><br>
+                      <p>PLN/MSC</p>
+                    </div><br>
+                      <div class="features">
+                          <br>
+                          <span>Zakup towaru + dowoz<span>
+                      </div>
+                      <div class="features">
+                          <br>
+                          <span>Serwis<span>
+                      </div>
+                      <div class="features">
+                          <br>
+                          <span>Gwarancja 6 lat<span>
+                      </div>
+                      <div class="features">
+                          <br>
+                          <span>Porady projektanta<span>
+                      </div>
+                      <div class="button_buy">
+                          <p>DOŁĄCZ</p>
+                      </div>
+                  </div>
+            </div>
 
         </div>
-
     </div>
 
 
-
-
+<script src="scripts.js" type="text/javascript"></script>
 </body>
 </html>
