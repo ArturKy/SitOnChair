@@ -1,3 +1,6 @@
+body {
+  font-family: ralewayregular, sans-serif, Arial;
+}
 header {
     background-color: black;
     width: 100%;
@@ -110,11 +113,12 @@ header {
     background-image: url("graphics/box2_img.jpg");
 }
 #inputs {
-    font-family: ralewayregular, sans-serif, Arial;
     line-height: 110%;
-}
-#inputs span, .white_bg span {
-    font-family: ralewaysemibold, sans-serif, Arial;
+    border: 2px solid rgb(241,241,241);
+    box-sizing: border-box;
+    vertical-align: top;
+    padding: 15px;
+    font-size: 0.95rem;
 }
 .green_underline {
     width: 138px;
@@ -159,9 +163,10 @@ header {
 }
 .circle_outside {
     border-radius: 50%;
-    width: 53px;
-    height: 53px;
-    border: 2px, rgb(214,214,214);
+    width: 54px;
+    height: 54px;
+    box-sizing: border-box;
+    border: 2px solid rgb(214,214,214);
     background-color: #ffffff;
     margin: 0 auto;
     margin-top: -40px;
@@ -169,8 +174,8 @@ header {
 }
 .circle_inside {
     border-radius: 50%;
-    width: 27px;
-    height: 27px;
+    width: 25px;
+    height: 25px;
     background-color: rgb(214,214,214);
     margin: 0 auto;
     margin: 13px 0 0 13px;
@@ -204,7 +209,6 @@ header {
 .features {
     width: 326px;
     height: 46px;
-    font-family: ralewayregular, sans-serif, Arial;
     text-align: center;
     background-color: rgb(228,228,228);
 }
