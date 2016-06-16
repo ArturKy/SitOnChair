@@ -4,12 +4,13 @@
 $(document).ready(function(){
 
   $(".top_graphics").mouseover(function(event){
-    event.stopPropagation();
+    event.stopImmediatePropagation();
     $(this).find(".white_bg").fadeOut();
   });
-  $(".top_graphics").mouseout(function(){
+  $(".top_graphics").mouseout(function(event){
+    event.stopImmediatePropagation();
     $(this).find(".white_bg").fadeIn();
-});
+  });
 });
 
 // Slider w Jumbotronie
