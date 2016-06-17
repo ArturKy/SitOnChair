@@ -236,9 +236,10 @@ header {
   background-color: #fff;
   height: 730px;
 }
-.contact_form {
+.contact_form_left {
   width: 616px;
   float: left;
+  display: inline-block;
 }
 form input, form textarea {
   width: 90%;
@@ -247,5 +248,43 @@ form input, form textarea {
   line-height: 2.3rem;
   font-family: ralewaylight, sans-serif, Arial;
   padding: 5px;
-  border: 1px solid rgb(39,199,177)
+  border: 1px solid rgb(39,199,177);
+}
+form textarea {
+  height: 160px;
+}
+.contact_form_right {
+  width: 430px;
+  display: inline-block;
+  padding: 0 50px 0 50px;
+  box-sizing: border-box;
+
+  color: rgb(200,200,200);
+}
+.contact_form_right img {
+  margin: 0 auto;
+  display: block;
+}
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"] + label span {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  margin: 0 5px 0 0;
+  border: 1px solid rgb(39,199,177);
+  vertical-align: middle;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked + label span {
+  background: url(graphics/form_ok.jpg) center no-repeat;
+  background-size: contain;
+}
+label p {
+  display: inline-block;
+  width: 275px;
+  vertical-align: middle;
+  font-size: 1.2rem;
+  line-height: 130%
 }
