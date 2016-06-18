@@ -30,3 +30,8 @@ var switchSlide = function(slideNumber) {
 setInterval(switchSlide, 2000);
 
 });
+
+//formularz kontaktowy
+$(".button_send").on("click", function(){
+  alert("Dziękujemy za Twoje zainteresowanie!" + "Twoja widomość nie zostanie do nikogo wysłana bo jest to strona demonstracyjna a nie prawdziwy sklep internetowy. Życzymy wygodnego siedzenia :-)");
+})

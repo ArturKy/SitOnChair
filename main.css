@@ -88,12 +88,8 @@ header {
     margin-top: 30px;
 }
 .right_jumbo div p {
-    text-transform: uppercase;
-    text-align: auto;
-    padding-top: 15px;
     font-family: ralewaymedium, sans-serif, Arial;
-    font-size: 24px;
-    color: white;
+    font-size: 1.5rem;
 }
 .top_graphics {
     height: 220px;
@@ -218,16 +214,21 @@ header {
 .features_blank {
     background-color: white !important;
 }
+.button {
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+  background-color: rgb(39,199,177);
+  color: white;
+  font-family: ralewaymedium, sans-serif, Arial;
+  margin: 0 auto;
+  align-items: center;
+  text-transform: uppercase;
+}
 .button_buy {
     height: 34px;
     width: 120px;
-    border-radius: 7px;
-    background-color: rgb(39,199,177);
-    color: white;
-    font-family: ralewaymedium, sans-serif, Arial;
-    margin: 0 auto;
     line-height: 34px;
-    text-align: center;
     bottom: -20px;
     position: relative;
 }
@@ -258,7 +259,6 @@ form textarea {
   display: inline-block;
   padding: 0 50px 0 50px;
   box-sizing: border-box;
-
   color: rgb(200,200,200);
 }
 .contact_form_right img {
@@ -287,4 +287,13 @@ label p {
   vertical-align: middle;
   font-size: 1.2rem;
   line-height: 130%
+}
+.button_send {
+  margin-top: 25px;
+  height: 52px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.footer {
+  clear: both;
 }
