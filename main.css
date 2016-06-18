@@ -18,12 +18,12 @@ header {
     display: inline;
     padding-top: 13px;
 }
-#logo p {
+.logo p {
     font-family: ralewaysemibold, sans-serif, Arial;
     font-size: 14px;
     float: left;
 }
-#logo span {
+.logo span {
     font-family: ralewaybold, sans-serif, Arial;
     color: rgb(39,199,171);
 }
@@ -296,4 +296,20 @@ label p {
 }
 .footer {
   clear: both;
+  margin: 100px 0 70px 0;
+}
+.copyright {
+float: left;
+}
+#footer_logo {
+  display: inline-block;
+  margin-left: 40px;
+}
+#footer_logo p {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.footer_right {
+  display: inline-block;
+  float: right;
 }
